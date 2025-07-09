@@ -31,3 +31,10 @@ describe('Factorial', () => {
     assert.equal(factorial(10), 3628800);  
   });
 });
+
+// Fifth test cycle
+describe('Factorial', () => { 
+  it('factorial(-1) = "Invalid input"', () => {
+    assert.equal(factorial(-1), "Invalid input");  
+  });
+});
