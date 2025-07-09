@@ -24,3 +24,10 @@ describe('Factorial',() => {
     assert.equal(factorial(4),24);
   });
 });
+
+// Fourth test cycle
+describe('Factorial', () => {
+  it('factorial(10) = 3628800', () => {
+    assert.equal(factorial(10), 3628800);  
+  });
+});
