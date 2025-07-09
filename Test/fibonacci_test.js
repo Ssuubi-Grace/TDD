@@ -11,6 +11,13 @@
      assert.equal(fibonacci(0), 0);
    });
  
+     // Second test cycle
+
+
+ it('fibonacci(1) = 1', () => {
+    assert.equal(fibonacci(1), 1);
+ });
  
-   });
-    // Second test cycle
+  });
+ 
+    
