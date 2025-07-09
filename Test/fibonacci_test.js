@@ -19,7 +19,9 @@
  });
  
     // Third test cycle
-    
+    it('fibonacci(2) = 1', () => {
+        assert.equal(fibonacci(2), 1);
+    });
   });
  
     
