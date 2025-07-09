@@ -19,6 +19,7 @@
  });
  
     // Third test cycle
+    it('fibonacci(2) = 1', () => {
   });
  
     
